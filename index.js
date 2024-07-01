@@ -1,3 +1,3 @@
-var calculator = require('./calculator.js');
+var fuelConsumption = require('./tests_exercice.js');
 
-console.log(calculator.add(1,1));
+console.log(fuelConsumption.fuelConsumptionPerKmDriven(11000, "Ethanol"));
